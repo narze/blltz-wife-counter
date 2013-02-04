@@ -4,7 +4,7 @@ $(function() {
   , dataType: 'json'
   , type: 'get'
   , success: function(res) {
-      $('.count').html(res.data[0].like_count);
+      $('.count').html(res.data[0].total_count);
     }
   });
 });
